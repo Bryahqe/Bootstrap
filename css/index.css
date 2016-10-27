@@ -1,0 +1,21 @@
+body {
+    padding-top: 100px;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background-color: #f8f8f8;
+    border: 1px solid #e7e7e7;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    /*box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);*/
+}
+.forgot-form{
+    display: none;
+}
+.glyphicon{
+    position: relative;
+    style: none;
+    color: black;
+}
