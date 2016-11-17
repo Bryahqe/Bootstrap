@@ -14,8 +14,8 @@
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
 
@@ -35,11 +35,11 @@
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#user">Users</a></li>
-                    <li><a href="#team">Teams</a></li>
-                    <li><a href="#stats">Stats</a></li>
-                    <li><a href="#simulation">Simulations</a></li>
-                    <li><a href="#system">System information</a></li>
+                    <li><a href="/Bootstrap/users.php"">Users</a></li>
+                    <li><a href="#">Teams</a></li>
+                    <li><a href="#">Stats</a></li>
+                    <li><a href="#">Simulations</a></li>
+                    <li><a href="#">System information</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hello: Username<span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -54,6 +54,99 @@
 
     <div class="container">
         <h2>Welcome</h2>
+
+        <ol class="breadcrumb">
+            <li class="active">Home</li>
+            <li><a href="#">Breadcrumb</a></li>
+            <li><a href="#">Breadcrumb</a></li>
+        </ol>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="" alt="...">
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Cookies helpen ons bij het leveren van onze services. Door gebruik te maken van onze services, gaat u akkoord met ons gebruik van cookies.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary" role="button">Button</a>
+                            <a href="#" class="btn btn-default" role="button">Button</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="" alt="...">
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Cookies helpen ons bij het leveren van onze services. Door gebruik te maken van onze services, gaat u akkoord met ons gebruik van cookies.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary" role="button">Button</a>
+                            <a href="#" class="btn btn-default" role="button">Button</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="" alt="...">
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Cookies helpen ons bij het leveren van onze services. Door gebruik te maken van onze services, gaat u akkoord met ons gebruik van cookies.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary" role="button">Button</a>
+                            <a href="#" class="btn btn-default" role="button">Button</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="" alt="...">
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Cookies helpen ons bij het leveren van onze services. Door gebruik te maken van onze services, gaat u akkoord met ons gebruik van cookies.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary" role="button">Button</a>
+                            <a href="#" class="btn btn-default" role="button">Button</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="" alt="...">
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Cookies helpen ons bij het leveren van onze services. Door gebruik te maken van onze services, gaat u akkoord met ons gebruik van cookies.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary" role="button">Button</a>
+                            <a href="#" class="btn btn-default" role="button">Button</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="" alt="...">
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Cookies helpen ons bij het leveren van onze services. Door gebruik te maken van onze services, gaat u akkoord met ons gebruik van cookies.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary" role="button">Button</a>
+                            <a href="#" class="btn btn-default" role="button">Button</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <footer class="panel-footer navbar-fixed-bottom">
@@ -63,7 +156,7 @@
     </footer>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 </body>
